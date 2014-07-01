@@ -155,6 +155,11 @@
 	.third-party {
 		a {
 			display: block;
+			margin-bottom: 2em !important;
+			transition: all .3s ease-in;
+			&:hover {
+				opacity: .6;
+			}
 		}
 	}
 

@@ -79,7 +79,25 @@
 }
 
 .jekyll-logo {
-	background-image: url(/assets/img/jekyll-logo-transparent.png);
-	background-image: url(/assets/img/jekyll-logo-transparent.svg);
+	background-image: url(/assets/img/jekyll-logo.png);
+	background-image: url(/assets/img/jekyll-logo.svg);
 	height: 7em;
+}
+
+.sass-logo {
+	background-image: url(/assets/img/sass-logo.png);
+	background-image: url(/assets/img/sass-logo.svg);
+	height: 10em;
+}
+
+.grunt-logo {
+	background-image: url(/assets/img/grunt-logo.png);
+	background-image: url(/assets/img/grunt-logo.svg);
+	height: 10em;
+}
+
+.git-logo {
+	background-image: url(/assets/img/git-logo.png);
+	background-image: url(/assets/img/git-logo.svg);
+	height: 5.5em;
 }

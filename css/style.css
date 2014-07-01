@@ -1851,9 +1851,24 @@ td, th {
   height: 80px; }
 
 .jekyll-logo {
-  background-image: url(/assets/img/jekyll-logo-transparent.png);
-  background-image: url(/assets/img/jekyll-logo-transparent.svg);
+  background-image: url(/assets/img/jekyll-logo.png);
+  background-image: url(/assets/img/jekyll-logo.svg);
   height: 7em; }
+
+.sass-logo {
+  background-image: url(/assets/img/sass-logo.png);
+  background-image: url(/assets/img/sass-logo.svg);
+  height: 10em; }
+
+.grunt-logo {
+  background-image: url(/assets/img/grunt-logo.png);
+  background-image: url(/assets/img/grunt-logo.svg);
+  height: 10em; }
+
+.git-logo {
+  background-image: url(/assets/img/git-logo.png);
+  background-image: url(/assets/img/git-logo.svg);
+  height: 5.5em; }
 
 * {
   -webkit-box-sizing: border-box;
@@ -2125,7 +2140,12 @@ table td, table th {
     white-space: nowrap;
     text-overflow: ellipsis; } }
 .main-content .third-party a {
-  display: block; }
+  display: block;
+  margin-bottom: 2em !important;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in; }
+.main-content .third-party a:hover {
+  opacity: .6; }
 
 .site-sidebar {
   padding: 1em .5em; }
