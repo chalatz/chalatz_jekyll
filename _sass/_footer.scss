@@ -1,0 +1,13 @@
+.site-footer {
+	clear: both;
+	padding: .5em;
+	background: darken($bg-color, 45%);
+	color: white;
+
+	a {
+		color: yellow;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}

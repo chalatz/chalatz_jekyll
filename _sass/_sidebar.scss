@@ -1,0 +1,27 @@
+.site-sidebar {
+
+	padding: 1em .5em;
+
+	.post {
+		@include post;
+		padding: 0;
+	}
+
+	.post-body {
+		padding: 0 .5em;
+	}
+
+	.block-post-header {
+		background: yellow;
+		h2 {
+			margin: 0;
+			padding: .5em;
+		}
+	}
+
+	@include breakpoint(medium){
+		width: 33.33%;
+		float: left;
+	}
+
+}

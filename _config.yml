@@ -1,0 +1,16 @@
+# Site settings
+title: Αλατζάς Χρήστος - Καθηγητής Πληροφορικής
+email: chalatz@sch.gr
+description: "Αλατζάς Χρήστος - Καθηγητής Πληροφορικής"
+baseurl: ""
+url: "http://localhost:4000"
+
+# My Settings
+excerpt_separator: <!-- more -->
+
+sass:
+    sass_dir: _sass
+
+# Build settings
+markdown: kramdown
+permalink: pretty

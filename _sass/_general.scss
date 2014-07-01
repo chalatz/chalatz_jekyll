@@ -1,0 +1,116 @@
+* {
+	box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'ClearSans';
+  src: url('clear_sans/clearsans_regular_greek/ClearSans-Regular-webfont.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('clear_sans/clearsans_regular_greek/ClearSans-Regular-webfont.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+body {
+	background-color: $bg-color;
+	font-family: 'ClearSans', Verdana, Arial, sans-serif;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+	&.link:hover {
+		text-decoration: underline;
+	}
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+.a-left-line {
+	height: 1px;
+	background-color: white;
+	margin: .3em 0;
+	width: 50%;
+	margin-left: -.3em;
+	position: relative;
+	overflow: hidden;
+
+	.runner {
+	  width: 30px;
+	  background: black;
+	  position: absolute;
+	  height: 5px;
+	  left: 0;
+	  bottom: 0;
+	  margin-left: -30px;
+	  transition: all 2s ease-in;
+	}
+
+}
+
+.a-right-line {
+	border-bottom: 1px solid white;
+	margin: .3em 0;
+	margin-left: 50%;
+	margin-right: -.3em;
+}
+.full-width {
+	width: 100%;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+
+	tr:nth-of-type(odd) { 
+	  background: #eee; 
+	}
+
+	th {
+		background: $midnight;
+		color: white;
+		font-weight: bold;
+	}
+
+	td, th {
+		padding: .3em;
+		border: 1px solid $midnight;
+		text-align: left;
+		position: relative;
+	}
+
+	@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px)  {
+		table, thead, tbody, th, td, tr {
+			display: block;
+		}
+		thead {
+			tr {
+				position: absolute;
+				top: -9999px;
+				left: -9999px;
+			}
+		}
+		tr {
+			border: 1px solid $midnight;
+		}
+		td { 
+			border: none;
+			border-bottom: 1px solid $midnight; 
+			position: relative;
+			padding-left: 1.5em;
+		}
+		td:before {
+			position:relative;
+			left: -.7em;
+			display: block;
+			padding-right: 10px; 
+			white-space: nowrap;
+			font-weight: bold;
+		}
+
+		td:nth-of-type(1):before { content: "Τίτλος:"; }
+		td:nth-of-type(2):before { content: "Συνημμένα Αρχεία:"; }
+		td:nth-of-type(3):before { content: "Ετικέτες:"; }
+	}
+
+}

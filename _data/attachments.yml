@@ -1,0 +1,64 @@
+- file_name: thebookii.pdf
+  post_id: "/2011/06/10/voithima-diktya-ii"
+  file_icon: "fa fa-file-pdf-o"
+  file_text: "Ανεπίσημο βοήθημα για τα Δίκτυα ΙΙ"
+  post_title: "Ανεπίσημο βοήθημα για τα Δίκτυα ΙΙ"
+
+- file_name: ypostiriktiko_biblio_gia_ta_diktya.pdf
+  post_id: "/2011/06/11/biblio-diktya-ii"
+  file_icon: "fa fa-file-pdf-o"
+  file_text: "Υποστηρικτικό βιβλίο για τα Δίκτυα ΙΙ"
+  post_title: "Υποστηρικτικό βιβλίο για τα Δίκτυα ΙΙ"
+
+- file_name: subnetting_i.pdf
+  post_id: "/2011/06/12/lymenes-askiseis-diktya-ii"
+  file_icon: "fa fa-file-pdf-o"
+  post_title: "Λυμένες ασκήσεις για το μάθημα Δίκτυα ΙΙ"
+
+- file_name: subnetting_ii.pdf
+  post_id: "/2011/06/12/lymenes-askiseis-diktya-ii"
+  file_icon: "fa fa-file-pdf-o"
+  post_title: "Λυμένες ασκήσεις για το μάθημα Δίκτυα ΙΙ"  
+
+- file_name: subnetting_iii.pdf
+  post_id: "/2011/06/12/lymenes-askiseis-diktya-ii"
+  file_icon: "fa fa-file-pdf-o"
+  post_title: "Λυμένες ασκήσεις για το μάθημα Δίκτυα ΙΙ"
+
+- file_name: rise_and_fall_of_ip_packet_i.pdf
+  post_id: "/2011/06/12/ptwsi-anodos-ip-paketou"
+  file_icon: "fa fa-file-pdf-o"
+  post_title: "Η πτώση και η άνοδος ενός IP πακέτου"
+
+- file_name: rise_and_fall_of_ip_packet_ii.pdf
+  post_id: "/2011/06/12/ptwsi-anodos-ip-paketou"
+  file_icon: "fa fa-file-pdf-o"
+  post_title: "Η πτώση και η άνοδος ενός IP πακέτου"
+
+- file_name: rise_and_fall_of_ip_packet_iii.pdf
+  post_id: "/2011/06/12/ptwsi-anodos-ip-paketou"
+  file_icon: "fa fa-file-pdf-o"
+  post_title: "Η πτώση και η άνοδος ενός IP πακέτου"
+
+- file_name: ili_logo_gymnasio_2010-2011_0.pdf
+  post_id: "/2011/06/14/logo-g-gymnasiou"
+  file_icon: "fa fa-file-pdf-o"
+  file_text: "Ύλη Logo"
+  post_title: "Logo Γ΄Γυμνασίου"
+
+- file_name: Pseudoglossa-Desktop-Windows.zip
+  post_id: "/2011/11/07/autonomi-ekdosi-pseudoglossa-gr"
+  file_icon: "fa fa-file-archive-o"
+  file_text: "Έκδοση Windows"
+  post_title: "Αυτόνομη Desktop έκδοση του pseudoglossa.gr"
+
+- file_name: Pseudoglossa-Desktop-Linux.zip
+  post_id: "/2011/11/07/autonomi-ekdosi-pseudoglossa-gr"
+  file_icon: "fa fa-file-archive-o"
+  file_text: "Έκδοση Linux"
+  post_title: "Αυτόνομη Desktop έκδοση του pseudoglossa.gr"
+
+- file_name: diagrammata_roes_-_spiti.pdf
+  post_id: "/2011/11/22/askiseis-diagrammata-rois-mod-div"
+  file_icon: "fa fa-file-pdf-o"
+  post_title: "Ασκήσεις σε Διαγράμματα Ροής, mod και div"

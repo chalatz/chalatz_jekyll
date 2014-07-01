@@ -1,0 +1,61 @@
+---
+layout: post_page
+---
+
+<div class="post">
+
+	{% if page.icon %}
+		<div class="post-icon-image {{ page.icon }}"></div>
+	{% endif %}
+	
+	<h1>{{page.title}}</h1>
+	
+	<div class="post-date">{{ page.date | date: "%d / %m / %Y" }}</div>
+	<div class="post-body">
+		{{ content }}
+	</div>
+
+	{% if page.attachments %}
+
+		<div class="post-attachments">
+
+			<div class="attachment-title">Συνημμένα:</div>
+
+			{% for attachment in site.data.attachments %}
+
+				{% if attachment.post_id == page.id %}
+
+					<div>
+						<a href="/assets/{{attachment.file_name}}" class="attachment">
+							{% if attachment.file_icon %}
+								<i class="{{attachment.file_icon}}"></i>
+							{% endif %}
+							
+							<span class="attachment-text">
+								{% if attachment.file_text %}
+									{{ attachment.file_text }}
+								{% else %}
+									{{attachment.file_name}}
+								{% endif %}
+							</span>
+						</a>
+				</div>
+
+				{% endif %}
+
+			{% endfor %}
+
+		</div>
+
+	{% endif %}
+
+	<div class="posts-nav">
+		{% if(page.previous) %}
+			<a href="{{page.previous.url}}" title="{{page.previous.title}}" class="go-to left-post">&larr;</i></a>
+		{% endif %}
+		{% if(page.next) %}
+			<a href="{{page.next.url}}" title="{{page.next.title}}" class="go-to right-post">&rarr;</a>
+		{% endif %}
+	</div>
+	
+</div>

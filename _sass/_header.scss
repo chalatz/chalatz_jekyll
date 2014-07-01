@@ -1,0 +1,98 @@
+.site-header {
+
+	background: darken($bg-color, 45%);
+	color: white;
+	overflow: hidden;
+
+	// ---------- Logo
+	.site-logo {
+
+		margin-top: 1.5em;
+		text-align: center;
+		text-shadow: 1px 1px 3px #888;
+
+		a {
+			color: white;
+		}
+
+		.site-logo-image {
+			width: 100%;
+			background-repeat: no-repeat;
+			background-position: center;
+			margin-bottom: .5em;
+		}
+
+		.site-title-link {
+			.site-title {
+				font-size: 2em;
+				transition: .2s all ease-out;
+				&:hover {
+					text-shadow: 2px 2px 3px black;
+				}
+			}
+			&:hover {
+				.runner {
+					margin-left: 100%;
+				}
+			}
+		}
+
+		.site-slogan {
+			font-style: italic;
+			font-size: 1.5em;
+			text-align: right;
+			margin-top: 1em;
+			margin-right: 1em;
+		}
+
+	} // .site-logo
+
+	// ---------- Nav
+	.site-nav {
+	
+		margin-top: 1em;
+		overflow: hidden;
+		background-color: yellow;
+		padding-left: 2em;
+
+		li {
+			display: inline-block;
+			margin-right: 2em;
+			margin-bottom: 1em;
+			@include breakpoint(medium) {
+				margin-bottom: 0;
+			}
+			a {
+				//border-bottom: 3px solid darken($bg-color, 40%);
+				padding-bottom: .2em;
+				position: relative;
+				overflow: hidden;
+				display: inline-block;
+				.border1, .border2 {
+					position: absolute;
+					width: 100%;
+					bottom: 0;
+					height: 4px;
+				}
+				.border1 {
+					background: darken($bg-color, 40%);
+					left: 0;
+				}
+				.border2 {
+					background: $bg-color;
+					right: 0;
+					margin-right: 100%;
+					transition: all 1s ease-in;
+				}
+				&:hover {
+					color: darken($bg-color, 40%);
+					.border2 {
+						margin-right: 0;
+					}
+				}
+			}
+		}	
+
+	} // .site-nav
+
+} // .site-header

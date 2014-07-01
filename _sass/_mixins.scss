@@ -1,0 +1,30 @@
+@mixin breakpoint($point) {
+  @if $point == medium {
+    @media (min-width: 50em) { @content; }
+  }
+  @if $point == medium_up {
+    @media (max-width: 50em) { @content; }
+  }
+  @if $point == small_up {
+    @media (max-width: 350px) { @content; }
+  }
+}
+
+@mixin clearfix {
+    &:before,
+    &:after {
+        content: "";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
+}
+
+@mixin post {
+	background-color: #fff;
+	padding: .5em;
+	margin-bottom: 1em;
+	border: 1px solid #e4e4e4;
+	box-shadow: 0 15px 2px -10px #444;
+}

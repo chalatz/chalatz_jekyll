@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+{% for post in site.posts %}
+  <div class="post">
+
+    <div class="post-icon-image {{ post.icon }}"></div>
+
+    <a href="{{ post.url | prepend: site.baseurl }}" class="post-title-link">
+      <h1>{{post.title}}</h1>
+    </a>
+
+    <div class="post-date">{{ post.date | date: "%d / %m / %Y" }}</div>
+    
+    <div class="post-body">
+      {{ post.excerpt }}
+    </div>
+
+    <a class="read-more" href="{{ post.url | prepend: site.baseurl }}">
+       <span class="read-more-text">Περισσότερα</span>
+        <span class="cross">+</span>
+    </a>
+
+  </div>
+{% endfor %}
+

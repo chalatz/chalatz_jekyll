@@ -1,0 +1,161 @@
+	.main-content {
+
+	padding: 1em .5em;
+
+	.post-title-link {
+		color: black;
+		h1 {
+			margin: 0;
+		}
+		&:hover {
+			color: $blue-dark;
+		}
+	}
+
+	.post {
+
+		@include clearfix;
+		@include post;
+
+		.post-date {
+			color: #666;
+			margin: .5em 1em;
+			font-style:italic;
+			font-size: .8em;
+		}
+
+		.post-icon-image {
+			width: 100%;
+			background-repeat: no-repeat;
+			background-position: center;
+			margin-bottom: .5em;
+			background-size: contain;
+		}
+
+		.post-attachments {
+			border-top: 1px solid #eee;
+			padding: .5em 0;
+			.attachment-title {
+				font-weight: bold;
+			}
+			.attachment {
+				clear: both;
+				margin: .5em 0 0 1em;
+				&:hover {
+					color: black;
+				}
+			}
+		}
+
+		.read-more {
+			  font-weight: bold;
+			  margin: 1em 0;
+			  overflow: hidden;
+			  display: inline-block;
+			  text-decoration: none;
+			  color: black;
+			  .read-more-text {
+				background: $bg-color;
+				padding: 1em 2em 1em 1em;
+				line-height: 2.5em;
+				transition: all .2s ease-in;
+			  }
+			  .cross {
+			  	background: yellow; 
+				padding: .5em;
+				font-size: 1.5em;
+				margin-left: -1em;
+				transition: all .2s ease-in;
+			  }
+			  &:hover {
+			  	.read-more-text {
+			  		background: $blue-dark;
+			  		color: white;
+			  	}
+			  	.cross {
+			  		background: darken(yellow, 15%);
+			  	}
+			  }
+		}
+
+		.posts-nav {
+			.go-to {
+				color: yellow;
+				font-weight: bold;
+				font-size: 2em;
+				background: $blue-dark;
+				margin-top: 1.5em;
+				width: 50px;
+				text-align: center;
+				border-radius: 50%;
+				&:hover {
+					background: $bg-color-2;
+				}
+			}
+			.left-post {
+				float: left;
+			}
+			.right-post {
+				float: right;
+			}
+		}
+
+	} // .post
+
+	@include breakpoint(medium){
+		width: 66.66%;
+		float: left;
+	}
+
+	&.full-width {
+		width: 100%;
+	}
+
+	.pagination {
+		text-align: center;
+		.current_page {
+			background: $blue-dark;
+			color: white;
+		}
+		.page {
+			color: black;
+			padding: 6px;
+			border-radius: 50%;
+			margin-right: 2em;
+			display: inline-block;
+			width: 2em;
+			height: 2em;
+			&:hover {
+				@extend .current_page;
+			}
+		}
+	}
+
+	.attachments-table {
+
+		a:hover {
+			text-decoration: underline;
+		}
+
+		.attachment-title {
+			font-weight: bold;
+		}
+
+		.attachment {
+			@include breakpoint(small_up){
+				width: 13em;
+				overflow: hidden;
+				white-space: nowrap;
+				text-overflow: ellipsis;
+			}
+		}
+
+	} //.attachments-table
+
+	.third-party {
+		a {
+			display: block;
+		}
+	}
+
+} // .main-content
