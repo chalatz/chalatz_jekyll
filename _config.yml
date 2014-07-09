@@ -14,3 +14,5 @@ sass:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+exclude: [node_modules, Gruntfile.js, package.json, npm-debug.log]
