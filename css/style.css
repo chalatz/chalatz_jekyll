@@ -2048,6 +2048,8 @@ table td, table th {
   display: table; }
 .main-content .post:after {
   clear: both; }
+.main-content .post p a:hover {
+  text-decoration: underline; }
 .main-content .post .post-date {
   color: #666;
   margin: .5em 1em;
@@ -2105,7 +2107,8 @@ table td, table th {
   text-align: center;
   border-radius: 50%; }
 .main-content .post .posts-nav .go-to:hover {
-  background: #494949; }
+  background: #494949;
+  text-decoration: none; }
 .main-content .post .posts-nav .left-post {
   float: left; }
 .main-content .post .posts-nav .right-post {

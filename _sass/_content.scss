@@ -17,6 +17,12 @@
 		@include clearfix;
 		@include post;
 
+		p {
+			a:hover {
+				text-decoration: underline;
+			}
+		}
+
 		.post-date {
 			color: #666;
 			margin: .5em 1em;
@@ -90,6 +96,7 @@
 				border-radius: 50%;
 				&:hover {
 					background: $bg-color-2;
+					text-decoration: none;
 				}
 			}
 			.left-post {
