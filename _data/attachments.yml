@@ -62,3 +62,8 @@
   post_id: "/2011/11/22/askiseis-diagrammata-rois-mod-div"
   file_icon: "fa fa-file-pdf-o"
   post_title: "Ασκήσεις σε Διαγράμματα Ροής, mod και div"
+
+- file_name: jekyll_diafaneies.pdf
+  post_id: "/2015/01/09/epimorfosi-jekyll"
+  file_icon: "fa fa-file-pdf-o"
+  post_title: "Δημιουργία Blog με Jekyll"
