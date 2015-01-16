@@ -2,9 +2,9 @@
   "name": "chalatz",
   "version": "0.1.0",
   "devDependencies": {
-    "grunt": "~0.4.4",
-    "grunt-contrib-sass": "~0.7.3",
-    "grunt-autoprefixer": "~0.7.2",
+    "grunt": "~0.4.5",
+    "grunt-contrib-sass": "~0.8.1",
+    "grunt-autoprefixer": "~2.1.0",
     "grunt-contrib-watch": "~0.6.1",
     "grunt-jekyll": "~0.4.2",
     "grunt-shell": "~0.7.0"

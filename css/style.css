@@ -148,8 +148,6 @@ figure {
  * Address differences between Firefox and other browsers.
  */
 hr {
-  -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
   box-sizing: content-box;
   height: 0; }
 
@@ -242,8 +240,6 @@ input {
  * 2. Remove excess padding in IE 8/9/10.
  */
 input[type="checkbox"], input[type="radio"] {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
   /* 1 */
   padding: 0;
@@ -265,8 +261,6 @@ input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-o
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
-  -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
   /* 2 */
   box-sizing: content-box; }
 
@@ -407,11 +401,9 @@ td, th {
 @keyframes spin {
   0% {
     -webkit-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
     transform: rotate(0deg); }
   100% {
     -webkit-transform: rotate(359deg);
-    -ms-transform: rotate(359deg);
     transform: rotate(359deg); } }
 .fa-rotate-90 {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
@@ -1789,12 +1781,11 @@ td, th {
   width: 70px;
   height: 70px; }
 .floppy-svg #sliding_thingy {
-  -webkit-transition: all .5s linear;
   transition: all .5s linear; }
 .floppy-svg:hover #sliding_thingy {
   -webkit-transform: translateX(-8px);
-  -ms-transform: translateX(-8px);
-  transform: translateX(-8px); }
+      -ms-transform: translateX(-8px);
+          transform: translateX(-8px); }
 
 .diskette-icon {
   background: url(../img/icons/floppy.png);
@@ -1873,8 +1864,6 @@ td, th {
   height: 5.5em; }
 
 * {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
 @font-face {
@@ -1911,7 +1900,6 @@ ul {
   left: 0;
   bottom: 0;
   margin-left: -30px;
-  -webkit-transition: all 2s ease-in;
   transition: all 2s ease-in; }
 
 .a-right-line {
@@ -1982,7 +1970,6 @@ table td, table th {
   margin-bottom: .5em; }
 .site-header .site-logo .site-title-link .site-title {
   font-size: 2em;
-  -webkit-transition: .2s all ease-out;
   transition: .2s all ease-out; }
 .site-header .site-logo .site-title-link .site-title:hover {
   text-shadow: 2px 2px 3px black; }
@@ -2023,7 +2010,6 @@ table td, table th {
   background: #7ed6ff;
   right: 0;
   margin-right: 100%;
-  -webkit-transition: all 1s ease-in;
   transition: all 1s ease-in; }
 .site-header .site-nav li a:hover {
   color: #0079b1; }
@@ -2043,7 +2029,6 @@ table td, table th {
   padding: .5em;
   margin-bottom: 1em;
   border: 1px solid #e4e4e4;
-  -webkit-box-shadow: 0 15px 2px -10px #444;
   box-shadow: 0 15px 2px -10px #444; }
 .main-content .post:before, .main-content .post:after {
   content: "";
@@ -2062,7 +2047,6 @@ table td, table th {
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: .5em;
-  -webkit-background-size: contain;
   background-size: contain; }
 .main-content .post .post-attachments {
   border-top: 1px solid #eee;
@@ -2085,14 +2069,12 @@ table td, table th {
   background: #7ed6ff;
   padding: 1em 2em 1em 1em;
   line-height: 2.5em;
-  -webkit-transition: all .2s ease-in;
   transition: all .2s ease-in; }
 .main-content .post .read-more .cross {
   background: yellow;
   padding: .5em;
   font-size: 1.5em;
   margin-left: -1em;
-  -webkit-transition: all .2s ease-in;
   transition: all .2s ease-in; }
 .main-content .post .read-more:hover .read-more-text {
   background: #006798;
@@ -2147,7 +2129,6 @@ table td, table th {
 .main-content .third-party a {
   display: block;
   margin-bottom: 2em !important;
-  -webkit-transition: all .3s ease-in;
   transition: all .3s ease-in; }
 .main-content .third-party a:hover {
   opacity: .6; }
@@ -2159,7 +2140,6 @@ table td, table th {
   padding: .5em;
   margin-bottom: 1em;
   border: 1px solid #e4e4e4;
-  -webkit-box-shadow: 0 15px 2px -10px #444;
   box-shadow: 0 15px 2px -10px #444;
   padding: 0; }
 .site-sidebar .post-body {
@@ -2183,5 +2163,3 @@ table td, table th {
   color: yellow; }
 .site-footer a:hover {
   text-decoration: underline; }
-
-/*# sourceMappingURL=style.css.map */
