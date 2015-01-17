@@ -1781,7 +1781,8 @@ td, th {
   width: 70px;
   height: 70px; }
 .floppy-svg #sliding_thingy {
-  transition: all .5s linear; }
+  -webkit-transition: all .5s linear;
+          transition: all .5s linear; }
 .floppy-svg:hover #sliding_thingy {
   -webkit-transform: translateX(-8px);
       -ms-transform: translateX(-8px);
@@ -1900,7 +1901,8 @@ ul {
   left: 0;
   bottom: 0;
   margin-left: -30px;
-  transition: all 2s ease-in; }
+  -webkit-transition: all 2s ease-in;
+          transition: all 2s ease-in; }
 
 .a-right-line {
   border-bottom: 1px solid white;
@@ -1970,7 +1972,8 @@ table td, table th {
   margin-bottom: .5em; }
 .site-header .site-logo .site-title-link .site-title {
   font-size: 2em;
-  transition: .2s all ease-out; }
+  -webkit-transition: .2s all ease-out;
+          transition: .2s all ease-out; }
 .site-header .site-logo .site-title-link .site-title:hover {
   text-shadow: 2px 2px 3px black; }
 .site-header .site-logo .site-title-link:hover .runner {
@@ -2010,7 +2013,8 @@ table td, table th {
   background: #7ed6ff;
   right: 0;
   margin-right: 100%;
-  transition: all 1s ease-in; }
+  -webkit-transition: all 1s ease-in;
+          transition: all 1s ease-in; }
 .site-header .site-nav li a:hover {
   color: #0079b1; }
 .site-header .site-nav li a:hover .border2 {
@@ -2069,13 +2073,15 @@ table td, table th {
   background: #7ed6ff;
   padding: 1em 2em 1em 1em;
   line-height: 2.5em;
-  transition: all .2s ease-in; }
+  -webkit-transition: all .2s ease-in;
+          transition: all .2s ease-in; }
 .main-content .post .read-more .cross {
   background: yellow;
   padding: .5em;
   font-size: 1.5em;
   margin-left: -1em;
-  transition: all .2s ease-in; }
+  -webkit-transition: all .2s ease-in;
+          transition: all .2s ease-in; }
 .main-content .post .read-more:hover .read-more-text {
   background: #006798;
   color: white; }
@@ -2129,7 +2135,8 @@ table td, table th {
 .main-content .third-party a {
   display: block;
   margin-bottom: 2em !important;
-  transition: all .3s ease-in; }
+  -webkit-transition: all .3s ease-in;
+          transition: all .3s ease-in; }
 .main-content .third-party a:hover {
   opacity: .6; }
 
