@@ -5,7 +5,11 @@ layout: default
 {% for post in site.posts %}
   <div class="post">
 
-    <div class="post-icon-image {{ post.icon }}"></div>
+    <div class="post-icon-image">
+      <svg class="icon">
+          <use xlink:href="/assets/svg/nice-things-defs.svg#{{post.icon}}"></use>
+        </svg>
+    </div>
 
     <a href="{{ post.url | prepend: site.baseurl }}" class="post-title-link">
       <h1>{{post.title}}</h1>

@@ -2,7 +2,7 @@
 layout: post
 title:  "Υποστηρικτικό βιβλίο για το μάθημα Δίκτυα ΙΙ"
 date:   2011-06-11 09:26:47
-icon: ps-svg-icon
+icon: icon-games-controller-2
 attachments: true
 ---
 

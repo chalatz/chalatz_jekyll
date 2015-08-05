@@ -2,7 +2,7 @@
 layout: post
 title:  "Δημιουργία Blog με Jekyll"
 date:   2015-01-09 14:00:00
-icon: camera-svg-icon
+icon: icon-old-camcorder
 attachments: true
 ---
 

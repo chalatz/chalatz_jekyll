@@ -2,7 +2,7 @@
 layout: post
 title:  "Η πτώση και η άνοδος ενός IP πακέτου"
 date:   2011-06-12 10:26:47
-icon: toyrobot-svg-icon
+icon: icon-toy-robot
 attachments: true
 ---
 

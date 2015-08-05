@@ -2,7 +2,7 @@
 layout: post
 title:  "Logo Γ΄Γυμνασίου"
 date:   2011-06-14 09:26:47
-icon: roller-svg-icon
+icon: icon-roller-skate
 attachments: true
 ---
 

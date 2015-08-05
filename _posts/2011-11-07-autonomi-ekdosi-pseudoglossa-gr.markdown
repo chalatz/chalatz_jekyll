@@ -2,7 +2,7 @@
 layout: post
 title:  "Αυτόνομη Desktop έκδοση του pseudoglossa.gr"
 date:   2011-11-07 09:26:47
-icon: battery-svg-icon
+icon: icon-battery
 attachments: true
 ---
 

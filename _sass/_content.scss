@@ -31,11 +31,11 @@
 		}
 
 		.post-icon-image {
-			width: 100%;
-			background-repeat: no-repeat;
-			background-position: center;
-			margin-bottom: .5em;
-			background-size: contain;
+			text-align: center;
+		}
+
+		svg.icon {
+			max-width: 100%;
 		}
 
 		.post-attachments {

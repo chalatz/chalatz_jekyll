@@ -5,7 +5,11 @@ layout: post_page
 <div class="post">
 
 	{% if page.icon %}
-		<div class="post-icon-image {{ page.icon }}"></div>
+		<div class="post-icon-image">
+			<svg class="icon">
+			    <use xlink:href="/assets/svg/nice-things-defs.svg#{{page.icon}}"></use>
+		  	</svg>
+		</div>
 	{% endif %}
 	
 	<h1>{{page.title}}</h1>
@@ -50,11 +54,11 @@ layout: post_page
 	{% endif %}
 
 	<div class="posts-nav">
-		{% if(page.previous) %}
-			<a href="{{page.previous.url}}" title="{{page.previous.title}}" class="go-to left-post">&larr;</i></a>
-		{% endif %}
 		{% if(page.next) %}
-			<a href="{{page.next.url}}" title="{{page.next.title}}" class="go-to right-post">&rarr;</a>
+			<a href="{{page.next.url}}" title="{{page.next.title}}" class="go-to left-post">&larr;</a>
+		{% endif %}
+		{% if(page.previous) %}
+			<a href="{{page.previous.url}}" title="{{page.previous.title}}" class="go-to right-post">&rarr;</i></a>
 		{% endif %}
 	</div>
 	
