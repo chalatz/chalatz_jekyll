@@ -32,6 +32,11 @@
 
 		.post-icon-image {
 			text-align: center;
+			width: 100%;
+			background-repeat: no-repeat;
+			background-position: center;
+			margin-bottom: .5em;
+			background-size: contain;
 		}
 
 		svg.icon {
@@ -67,7 +72,7 @@
 				transition: all .2s ease-in;
 			  }
 			  .cross {
-			  	background: yellow; 
+			  	background: yellow;
 				padding: .5em;
 				font-size: 1.5em;
 				margin-left: -1em;

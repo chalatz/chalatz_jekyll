@@ -2007,7 +2007,12 @@ table td, table th {
   font-style: italic;
   font-size: .8em; }
 .main-content .post .post-icon-image {
-  text-align: center; }
+  text-align: center;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: .5em;
+  background-size: contain; }
 .main-content .post svg.icon {
   max-width: 100%; }
 .main-content .post .post-attachments {
