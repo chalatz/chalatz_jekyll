@@ -2,12 +2,14 @@
 layout: post_page
 ---
 
+{% include icons.html %}
+
 <div class="post">
 
 	{% if page.icon %}
 		<div class="post-icon-image">
 			<svg class="icon">
-			    <use xlink:href="/assets/svg/nice-things-defs.svg#{{page.icon}}"></use>
+			    <use xlink:href="#{{page.icon}}"></use>
 		  	</svg>
 		</div>
 	{% endif %}
