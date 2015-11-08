@@ -1841,10 +1841,6 @@ a {
 a.link:hover {
   text-decoration: underline; }
 
-ul {
-  list-style: none;
-  padding: 0; }
-
 .a-left-line {
   height: 1px;
   background-color: white;
