@@ -4,11 +4,17 @@ title:  "Το Drupal 8 είναι εδώ!"
 date:   2015-12-11 14:00:00
 icon:   icon-drupal-8-logo
 ---
-Από την 
+Από την 19η Νοεμβρίου είναι διαθέσιμη η [8η έκδοση](https://www.drupal.org/8) του δημοφιλούς CMS*, [Drupal](https://www.drupal.org/).
 
-<!-- more -->
+Με πάρα πολλές δραστικές αλλαγές και βελτιώσεις, το Drupal περνάει σε μια νέα εποχή ενισχύοντας ακόμη περισσότερο τη θέση του ως ένα από τα κορυφαία CMS.
 
-More Drupal 8
+Αν δεν έχετε ασχοληθεί ακόμη με το Drupal, τώρα είναι η πιο κατάλληλη στιγμή.
+
+[Αυτή τη σειρά που αποτελείται από 62 video](https://www.youtube.com/playlist?list=PLtaXuX0nEZk9MKY_ClWcPkGtOEGyLTyCO), θα σας εισάγει με εύκολο και κατανοητό τρόπο στον κόσμο του Drupal.
+
+[Μάθετε λοιπόν Drupal](https://www.youtube.com/playlist?list=PLtaXuX0nEZk9MKY_ClWcPkGtOEGyLTyCO) και δείτε πώς είναι να εργάζεστε με ένα πανίσχυρο, σταθερό, ασφαλές και ευέλικτο CMS!
+
+**Content Management System - Σύστημα Διαχείρισης Περιεχομένου*
 
 
 
