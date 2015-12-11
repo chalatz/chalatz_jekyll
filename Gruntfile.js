@@ -31,13 +31,31 @@ module.exports = function(grunt) {
           'css/style.css': 'css/style.css'
         }
       }
-    }
+    },
+
+    svgstore: {
+      options: {
+        prefix : 'icon-', // This will prefix each ID
+        svg: {
+          viewBox: '0 0 32 32',
+          version: '1.1',
+          xmlns: 'http://www.w3.org/2000/svg',
+          'xmlns:xlink': 'http://www.w3.org/1999/xlink'
+        },
+      },
+      default: {
+        files : {
+          'assets/svg/nice-things.svg': ['assets/svg/svgo_live/*.svg'],
+        },
+      },
+    }    
 
   });
 
   grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-autoprefixer');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-svgstore');
 
   grunt.registerTask('default', ['watch']);
 

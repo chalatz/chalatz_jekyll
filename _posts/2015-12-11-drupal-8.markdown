@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Το Drupal 8 είναι εδώ!"
+date:   2015-12-11 14:00:00
+icon:   icon-drupal-8-logo
+---
+Από την 
+
+<!-- more -->
+
+More Drupal 8
+
+
+
