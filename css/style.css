@@ -563,6 +563,8 @@ a.link:hover {
   font-size: 1.1em; }
 .main-content .post p a:hover {
   text-decoration: underline; }
+.main-content .post ul {
+  line-height: 2em; }
 .main-content .post .post-date {
   color: #666;
   margin: .5em 1em;
