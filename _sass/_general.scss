@@ -58,59 +58,6 @@ a {
 	width: 100%;
 }
 
-table {
-	width: 100%;
-	border-collapse: collapse;
-
-	tr:nth-of-type(odd) { 
-	  background: #eee; 
-	}
-
-	th {
-		background: $midnight;
-		color: white;
-		font-weight: bold;
-	}
-
-	td, th {
-		padding: .3em;
-		border: 1px solid $midnight;
-		text-align: left;
-		position: relative;
-	}
-
-	@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px)  {
-		table, thead, tbody, th, td, tr {
-			display: block;
-		}
-		thead {
-			tr {
-				position: absolute;
-				top: -9999px;
-				left: -9999px;
-			}
-		}
-		tr {
-			border: 1px solid $midnight;
-		}
-		td { 
-			border: none;
-			border-bottom: 1px solid $midnight; 
-			position: relative;
-			padding-left: 1.5em;
-		}
-		td:before {
-			position:relative;
-			left: -.7em;
-			display: block;
-			padding-right: 10px; 
-			white-space: nowrap;
-			font-weight: bold;
-		}
-
-		td:nth-of-type(1):before { content: "Τίτλος:"; }
-		td:nth-of-type(2):before { content: "Συνημμένα Αρχεία:"; }
-		td:nth-of-type(3):before { content: "Ετικέτες:"; }
-	}
-
+.table-container {
+	overflow: auto;
 }

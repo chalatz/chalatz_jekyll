@@ -4,33 +4,36 @@ layout: page
 
 {% assign attachments = site.data.attachments | group_by: "post_title" %}
 
-<table class="attachments-table">
-	
-	<thead>
-		<tr>
-			<th>Τίτλος</th>
-			<th>Συνημμένα Αρχεία</th>
-		</tr>
-	</thead>
-
-	<tbody>
-		{% for attachment in attachments %}
+<div class="table-container">
+	<table class="pure-table pure-table-striped attachments-table">
+		
+		<thead>
 			<tr>
-				<td>
-					{% assign first_item = attachment.items | first %}
-					<a class="attachment-title" href="{{ first_item.post_id }}">{{ first_item.post_title }}</a>
-				</td>
-				<td>
-					{% for item in attachment.items %}
-						<div class="attachment">
-							<i class="{{item.file_icon}}"></i>
-							<a href="/assets/{{ item.file_name }}">{{ item.file_name }}</a>
-						</div>
-					{% endfor %}
-				</td>
+				<th>Τίτλος</th>
+				<th>Συνημμένα Αρχεία</th>
 			</tr>
-		{% endfor %}
-	</tbody>
+		</thead>
+
+		<tbody>
+			{% for attachment in attachments %}
+				<tr>
+					<td>
+						{% assign first_item = attachment.items | first %}
+						<a class="attachment-title" href="{{ first_item.post_id }}">{{ first_item.post_title }}</a>
+					</td>
+					<td>
+						{% for item in attachment.items %}
+							<div class="attachment">
+								<i class="{{item.file_icon}}"></i>
+								<a href="/assets/{{ item.file_name }}">{{ item.file_name }}</a>
+							</div>
+						{% endfor %}
+					</td>
+				</tr>
+			{% endfor %}
+		</tbody>
+
+	</table>
 
 </table>
 

@@ -17,6 +17,10 @@
 		@include clearfix;
 		@include post;
 
+		p, ul {
+			font-size: 1.1em;
+		}
+
 		p {
 			a:hover {
 				text-decoration: underline;
@@ -145,21 +149,14 @@
 
 	.attachments-table {
 
+		width: 100%;
+
 		a:hover {
 			text-decoration: underline;
 		}
 
 		.attachment-title {
 			font-weight: bold;
-		}
-
-		.attachment {
-			@include breakpoint(small_up){
-				width: 13em;
-				overflow: hidden;
-				white-space: nowrap;
-				text-overflow: ellipsis;
-			}
 		}
 
 	} //.attachments-table
